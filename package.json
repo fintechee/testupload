@@ -2,7 +2,7 @@
   "name": "testupload",
   "version": "1.0.0",
   "description": "",
-  "main": "test.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,9 @@
     "file-type": "^17.1.1",
     "mime-types": "^2.1.35",
     "moment": "^2.29.2",
+    "node-fetch": "^2.6.7",
     "sha1": "^1.1.1",
     "unixtime": "0.0.2"
-  }
+  },
+  "type": "module"
 }
